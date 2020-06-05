@@ -17,7 +17,6 @@ def is_prime(n):
         limit = int(math.sqrt(n))
         for i in range(2, limit+1):
             if (n % i) == (0):
-                print('진입')
                 return False
                 
         
